@@ -20,8 +20,9 @@ const Layout = styled.div`
 const Home = () => {
   return (<Container>
     <Layout>
-      <Link to="/fluidGrid">1장 가변그리드</Link>
-      <Link to="/viewport">2장 뷰포트</Link>
+      <Link to="/fluidGrid">1-1 가변그리드</Link>
+      <Link to="/viewport">1-2 뷰포트</Link>
+      <Link to="/mediaQuery">1-3 미디어 쿼리</Link>
     </Layout>
   </Container>);
 }
