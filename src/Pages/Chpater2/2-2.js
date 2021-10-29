@@ -25,6 +25,29 @@ const Box = styled.div`
   }
 `
 
+const Wrpa2 = styled.div`
+  width: 90%;
+  max-width: 960px;
+  height: 500px;
+  margin: 30px auto;
+  border: 4px solid #000;
+`
+
+const Box2 = styled.div`
+  width: 31.25%;
+  /* 300px / 960px */
+  /* height: 100%; */
+  display: inline-block;
+  :first-child {
+    padding: 50px 5.208333333333%;
+    background-color: #1f518b;
+  }
+  :nth-child(2) {
+    padding: 130px 13.541666666667%;
+    background-color: #f7e041;
+  }
+`
+
 const FluidMargin = () => {
   return (<React.Fragment>
     <BackHome />
@@ -32,6 +55,11 @@ const FluidMargin = () => {
       <Box></Box>
       <Box></Box>
     </Wrap>
+
+    <Wrpa2>
+      <Box2></Box2>
+      <Box2></Box2>
+    </Wrpa2>
   </React.Fragment>);
 }
 
