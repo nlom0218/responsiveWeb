@@ -24,6 +24,7 @@ const Home = () => {
       <Link to="/viewport">1-2 뷰포트</Link>
       <Link to="/mediaQuery">1-3 미디어 쿼리</Link>
       <Link to="/fluidGrid2">2-1 서로 다른 크기의 박스를 가변 크기로 변화하기</Link>
+      <Link to="/2-2">2-2 가변 마진과 가변 패딩 이해하기</Link>
     </Layout>
   </Container>);
 }
