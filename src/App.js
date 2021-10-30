@@ -5,6 +5,7 @@ import MediaQuery from './Pages/Chpater1/MediaQuery';
 import Viewport from "./Pages/Chpater1/Viewport"
 import FluidMargin from './Pages/Chpater2/2-2';
 import FluidGrid2 from './Pages/Chpater2/FluidGrid2';
+import MediaQuery2 from './Pages/Chpater3/MediaQuery2';
 import Home from './Pages/Home';
 import { GlobalStyle } from './styles';
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/mediaQuery"><MediaQuery /></Route>
         <Route path="/fluidGrid2"><FluidGrid2 /></Route>
         <Route path="/2-2"><FluidMargin /></Route>
+        <Route path="/3-1"><MediaQuery2 /></Route>
       </Switch>
     </Router>
   </React.StrictMode>);

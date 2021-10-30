@@ -25,6 +25,7 @@ const Home = () => {
       <Link to="/mediaQuery">1-3 미디어 쿼리</Link>
       <Link to="/fluidGrid2">2-1 서로 다른 크기의 박스를 가변 크기로 변화하기</Link>
       <Link to="/2-2">2-2 가변 마진과 가변 패딩 이해하기</Link>
+      <Link to="/3-1">3-1 미디어 쿼리 사용해 웹사이트 구조 변경하기</Link>
     </Layout>
   </Container>);
 }
