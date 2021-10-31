@@ -5,12 +5,17 @@ import styled from 'styled-components';
 import { customMedia } from '../styles';
 
 const Container = styled.div`
-  width: 100%;
   display: grid;
   grid-template-rows: auto auto;
   background: #2ecc71;
+  ${customMedia.greaterThan("tablet")`
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+  `}
   ${customMedia.greaterThan("desktop")`
     position: relative;
+    // grid-column: 1 / -1;
+    // grid-row: 1 / 2;
   `}
 `
 
@@ -175,8 +180,6 @@ const Header = () => {
     const seeMenuFn = () => {
       if (isDesktop) {
         setSeeMenu(true)
-      } else {
-        setSeeMenu(false)
       }
     }
     seeMenuFn()

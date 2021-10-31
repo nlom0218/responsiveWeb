@@ -1,10 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
+import { customMedia } from '../styles';
 import Header from './Header';
 
 const Wrap = styled.div`
-  width:100%;
   display: grid;
+  ${customMedia.greaterThan("tablet")`
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, auto);
+  `}
+  ${customMedia.greaterThan("desktop")`
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(4, auto);
+  `}
 `
 
 const Home = () => {
