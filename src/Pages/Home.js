@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { customMedia } from '../styles';
 import Header from './Header';
+import Post from './Post';
 import Slider from './Slider';
 
 const Wrap = styled.div`
@@ -21,6 +22,7 @@ const Home = () => {
   return (<Wrap>
     <Header />
     <Slider />
+    <Post />
     {/* <Slider></Slider>
     <LatestPost></LatestPost>
     <Gallery></Gallery>

@@ -11,6 +11,7 @@ const Container = styled.section`
     grid-row: 2 / 3;
   `}
   ${customMedia.greaterThan("desktop")`
+    grid-column: 1 / 6;
     height: 450px;
     height: 28.125rem;
   `}
