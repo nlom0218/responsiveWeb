@@ -8,6 +8,11 @@ export const customMedia = generateMedia({
   desktop: "1024px"
 })
 
+export const color = {
+  green: "#2ecc71",
+  gray: "#2c3e50"
+}
+
 export const GlobalStyle = createGlobalStyle`
   ${reset};
 

@@ -1,14 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { customMedia } from '../styles';
+import Header from './Header';
 
 const Wrap = styled.div`
-
+  width:100%;
+  display: grid;
 `
 
 const Home = () => {
-  return (<Wrap color="yellow">
+
+  return (<Wrap>
+    <Header />
+    {/* <Slider></Slider>
+    <LatestPost></LatestPost>
+    <Gallery></Gallery>
+    <Rankup></Rankup>
+    <Banner></Banner>
+    <Social></Social>
+    <Footer></Footer> */}
   </Wrap>);
 }
 
