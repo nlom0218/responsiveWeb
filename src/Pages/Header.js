@@ -14,8 +14,6 @@ const Container = styled.div`
   `}
   ${customMedia.greaterThan("desktop")`
     position: relative;
-    // grid-column: 1 / -1;
-    // grid-row: 1 / 2;
   `}
 `
 
