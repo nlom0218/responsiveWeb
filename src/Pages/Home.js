@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { customMedia } from '../styles';
+import Banner from './Banner';
 import Gallery from './Gallery';
 import Header from './Header';
 import Post from './Post';
@@ -28,6 +29,7 @@ const Home = () => {
     <Post />
     <Gallery />
     <Rankup />
+    <Banner />
     {/* <Slider></Slider>
     <LatestPost></LatestPost>
     <Gallery></Gallery>
