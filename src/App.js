@@ -6,7 +6,7 @@ import { GlobalStyle } from './styles';
 const App = () => {
   return (<React.StrictMode>
     <GlobalStyle />
-    <Router>
+    <Router basename="https://nlom0218.github.io/responsiveWeb/">
       <Switch>
         <Route exact path={"https://nlom0218.github.io/responsiveWeb/" + "/"}><Home /></Route>
       </Switch>
