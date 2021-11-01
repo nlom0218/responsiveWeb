@@ -10,8 +10,6 @@ const Container = styled.section`
   `}
   ${customMedia.greaterThan("desktop")`
     grid-column: 1 / 6;
-    height: 450px;
-    height: 28.125rem;
   `}
 `
 

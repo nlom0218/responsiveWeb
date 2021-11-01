@@ -18,8 +18,8 @@ const Wrap = styled.div`
   `}
   ${customMedia.greaterThan("desktop")`
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: auto 450px auto auto;
-    grid-template-rows: auto 28.125rem auto auto;
+    grid-template-rows: auto 550px auto auto;
+    // grid-template-rows: auto 34.375rem auto auto;
   `}
 `
 
