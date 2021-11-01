@@ -7,6 +7,7 @@ import Header from './Header';
 import Post from './Post';
 import Rankup from './Rankup';
 import Slider from './Slider';
+import Social from './Social';
 
 const Wrap = styled.div`
   display: grid;
@@ -30,6 +31,7 @@ const Home = () => {
     <Gallery />
     <Rankup />
     <Banner />
+    <Social />
     {/* <Slider></Slider>
     <LatestPost></LatestPost>
     <Gallery></Gallery>
