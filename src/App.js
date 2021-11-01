@@ -8,7 +8,7 @@ const App = () => {
     <GlobalStyle />
     <Router>
       <Switch>
-        <Route exact path="/"><Home /></Route>
+        <Route exact path={"https://nlom0218.github.io/responsiveWeb/" + "/"}><Home /></Route>
       </Switch>
     </Router>
   </React.StrictMode>);
