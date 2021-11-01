@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import { customMedia } from '../styles';
 
 const Container = styled.section`
-  height: 300px;
-  height: 18.750rem;
   background: url(images/p_images/slider_01.jpg) center center no-repeat;
   ${customMedia.greaterThan("tablet")`
     grid-column: 1 / 7;

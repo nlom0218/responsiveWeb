@@ -72,4 +72,8 @@ color:#e65d5d;
 input::-webkit-input-placeholder {
 color:#e65d5d;
 }
+
+* {
+  box-sizing: border-box;
+}
 `

@@ -4,6 +4,7 @@ import { customMedia } from '../styles';
 import Gallery from './Gallery';
 import Header from './Header';
 import Post from './Post';
+import Rankup from './Rankup';
 import Slider from './Slider';
 
 const Wrap = styled.div`
@@ -26,6 +27,7 @@ const Home = () => {
     <Slider />
     <Post />
     <Gallery />
+    <Rankup />
     {/* <Slider></Slider>
     <LatestPost></LatestPost>
     <Gallery></Gallery>
