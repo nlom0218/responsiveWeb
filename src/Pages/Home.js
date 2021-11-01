@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { customMedia } from '../styles';
 import Banner from './Banner';
+import Footer from './Footer';
 import Gallery from './Gallery';
 import Header from './Header';
 import Post from './Post';
@@ -32,13 +33,7 @@ const Home = () => {
     <Rankup />
     <Banner />
     <Social />
-    {/* <Slider></Slider>
-    <LatestPost></LatestPost>
-    <Gallery></Gallery>
-    <Rankup></Rankup>
-    <Banner></Banner>
-    <Social></Social>
-    <Footer></Footer> */}
+    <Footer />
   </Wrap>);
 }
 
