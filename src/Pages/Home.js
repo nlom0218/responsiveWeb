@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { customMedia } from '../styles';
+import Gallery from './Gallery';
 import Header from './Header';
 import Post from './Post';
 import Slider from './Slider';
@@ -13,7 +14,8 @@ const Wrap = styled.div`
   `}
   ${customMedia.greaterThan("desktop")`
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: auto 450px auto auto;
+    grid-template-rows: auto 28.125rem auto auto;
   `}
 `
 
@@ -23,6 +25,7 @@ const Home = () => {
     <Header />
     <Slider />
     <Post />
+    <Gallery />
     {/* <Slider></Slider>
     <LatestPost></LatestPost>
     <Gallery></Gallery>

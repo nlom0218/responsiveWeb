@@ -39,6 +39,7 @@ const Title = styled.h2`
   text-align: center;
   text-transform: uppercase;
   color: #fff;
+  font-weight: bold;
 `
 
 const PostList = styled.ul`
